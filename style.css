@@ -17,11 +17,15 @@ body {
 }
 
 header {
-    background-color: #111;
+    background-color: rgba(10, 10, 10, 0.9);
     padding: 20px 0;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #1f1f1f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(6px);
+    z-index: 1000;
 }
-
 .nav {
     display: flex;
     justify-content: space-between;
