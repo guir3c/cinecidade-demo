@@ -49,11 +49,11 @@ nav a:hover {
 }
 
 .hero {
-    height: 85vh;
+    height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #111, #1a1a1a);
-    text-align: left;
+    background: radial-gradient(circle at center, #1a1a1a 0%, #0d0d0d 70%);
+    padding-top: 80px;
 }
 
 .hero-content {
